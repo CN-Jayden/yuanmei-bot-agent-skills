@@ -1,0 +1,27 @@
+{
+  "name": "yuanmei-bot",
+  "displayName": "猿媒BOT",
+  "description": "企业微信私域运营工作台：读取群消息、搜索记录、发送文本/图片/链接、定时发送。",
+  "repository": "https://github.com/CN-Jayden/yuanmei-bot-dsh-mcp",
+  "docs": "https://github.com/CN-Jayden/yuanmei-bot-docs/blob/main/clients/hermes.md",
+  "transport": "streamable-http",
+  "url": "https://chatbot.apetd.com/mcp",
+  "auth": {
+    "type": "bearer",
+    "tokenUrl": "https://chatbot.apetd.com",
+    "instructions": "在猿媒BOT「个人中心 → API 接入 → MCP 接入」签发长期令牌，作为 Authorization: Bearer <token> 使用。"
+  },
+  "category": "communication",
+  "maintainer": "CN-Jayden",
+  "tools": [
+    "whoami",
+    "list_robots",
+    "list_conversations",
+    "read_messages",
+    "search_messages",
+    "send_text",
+    "send_image",
+    "send_link",
+    "schedule_message"
+  ]
+}

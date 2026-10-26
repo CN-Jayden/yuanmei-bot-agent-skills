@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "yuanmei-bot": {
+      "type": "http",
+      "url": "https://chatbot.apetd.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <YUANMEI_MCP_TOKEN>"
+      }
+    }
+  }
+}
